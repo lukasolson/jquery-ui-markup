@@ -30,4 +30,4 @@ To use it, simply include it after you include jQuery and jQueryUI.:
 <script type="text/javascript" src="jqueryui-markup.js"></script>
 ```
 
-Note: there is still a lot of work to do before this is fully-featured. Things like support for option names with capital letters, support for option values that aren't static, etc.
+Note: there is still a lot of work to do before this is fully-featured. Things like support for option names with capital letters, support for option values that aren't static, support for space-separated values in data-jqui attribute, etc.
