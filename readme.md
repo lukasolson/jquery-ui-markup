@@ -24,7 +24,7 @@ After including this plugin, you can do the same thing with the following syntax
 
 To use it, simply include it after you include jQuery and jQueryUI.:
 
-```javascript
+```html
 <script type="text/javascript" src="jqueryui/js/jquery-1.9.1.js"></script>
 <script type="text/javascript" src="jqueryui/js/jquery-ui-1.10.2.custom.js"></script>
 <script type="text/javascript" src="jqueryui-markup.js"></script>
