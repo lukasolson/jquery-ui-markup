@@ -11,6 +11,7 @@ Here's what you'd usually have to do to implement something like `draggable()`:
 ```javascript
 $(document).ready(function() {
   $(".draggable").draggable({
+    addClasses: false,
     axis: "x"
   });
 });
@@ -19,7 +20,7 @@ $(document).ready(function() {
 After including this plugin, you can do the same thing with the following syntax:
 
 ```html
-<div data-jqui="draggable" data-axis="x">This is draggable</div>
+<div data-jqui="draggable" data-add-classes="false" data-axis="x">This is draggable</div>
 ```
 
 To use it, simply include it after you include jQuery and jQueryUI.:
@@ -30,4 +31,4 @@ To use it, simply include it after you include jQuery and jQueryUI.:
 <script type="text/javascript" src="jqueryui-markup.js"></script>
 ```
 
-Note: there is still a lot of work to do before this is fully-featured. Things like support for option names with capital letters, support for option values that aren't static, support for space-separated values in data-jqui attribute, etc.
+Note: there is still a lot of work to do before this is fully-featured. Things like support for option values that are tied to variables, support for calling multiple jQuery UI functions on single elements via space-separated values in data-jqui attribute, etc.
