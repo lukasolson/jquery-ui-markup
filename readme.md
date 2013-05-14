@@ -23,7 +23,13 @@ After including this plugin, you can do the same thing with the following syntax
 <div data-jqui="draggable" data-add-classes="false" data-axis="x">This is draggable</div>
 ```
 
-To use it, simply include it after you include jQuery and jQueryUI.:
+Or, to call multiple jQuery UI methods on a single element, use a space-separated list of all of them:
+
+```html
+<div data-jqui="draggable resizable">This is draggable AND resizable</div>
+```
+
+To use this plugin, simply include it after you include jQuery and jQueryUI.:
 
 ```html
 <script type="text/javascript" src="jqueryui/js/jquery-1.9.1.js"></script>
@@ -31,4 +37,3 @@ To use it, simply include it after you include jQuery and jQueryUI.:
 <script type="text/javascript" src="jqueryui-markup.js"></script>
 ```
 
-Note: there is still a lot of work to do before this is fully-featured. Things like support for option values that are tied to variables, support for calling multiple jQuery UI functions on single elements via space-separated values in data-jqui attribute, etc.
